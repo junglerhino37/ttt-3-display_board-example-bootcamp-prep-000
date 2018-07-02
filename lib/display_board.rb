@@ -2,6 +2,7 @@
 def display_board
   row= "   |   |   "
   seperator="-----------"
-  3.times {puts row}
+  line=row+seperator
+  3.times {puts line}
 end
 display_board
